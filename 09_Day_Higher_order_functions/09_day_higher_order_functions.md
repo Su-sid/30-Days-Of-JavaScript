@@ -102,7 +102,7 @@ console.log(sumArray(numbers))
 ```
 
 ```sh
-15
+10
 ```
 
 The above example can be simplified as follows:
@@ -122,7 +122,7 @@ console.log(sumArray(numbers))
 ```
 
 ```sh
-15
+10
 ```
 
 ### Setting time
@@ -203,6 +203,7 @@ console.log(sum)
 3
 4
 5
+0
 ```
 
 ```js
