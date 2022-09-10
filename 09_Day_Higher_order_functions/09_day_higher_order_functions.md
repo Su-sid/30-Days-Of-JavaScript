@@ -572,7 +572,7 @@ const products = [
 ```
 
 1. Explain the difference between **_forEach, map, filter, and reduce_**.
-2. Define a call function before you them in forEach, map, filter or reduce.
+2. Define a callback function before you use them in forEach, map, filter or reduce.
 3. Use **_forEach_** to console.log each country in the countries array.
 4. Use **_forEach_** to console.log each name in the names array.
 5. Use **_forEach_** to console.log each number in the numbers array.
