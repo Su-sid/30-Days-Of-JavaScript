@@ -159,7 +159,7 @@ Person {firstName: "Lidiya", lastName: "Tekle"}
 Person {firstName: "Abraham", lastName: "Yetayeh"}
 ```
 
-Using the class Person we created three persons object. As you can see our class did not many properties let us add more properties to the class.
+Using the class Person we created three persons object. As you can see our class did not have many properties let us add more properties to the class.
 
 ```js
 class Person {
@@ -243,7 +243,7 @@ console.log(person2.getFullName())
 
 ```sh
 Asabeneh Yetayeh
-test.js:19 Lidiya Tekle
+Lidiya Tekle
 ```
 
 ### Properties with initial value
@@ -586,7 +586,9 @@ Asabeneh Yetayeh is Finland. He lives Helsinki, 250.
 
 ### Overriding methods
 
-As you can see, we manage to access all the methods in the Person Class and we used it in the Student child class. We can customize the parent methods, we can add additional properties to a child class. If we want to customize, the methods and if we want to add extra properties, we need to use the constructor function the child class too. In side the constructor function we call the super() function to access all the properties from the parent class. The Person class didn't have gender but now let us give gender property for the child class, Student. If the same method name used in the child class, the parent method will be overridden.
+As you can see, we manage to access all the methods in the Person Class and we used it in the Student child class. We can customize the parent methods, we can add additional properties to a child class. If we want to customize, the methods and if we want to add extra properties, we need to use the constructor function in the child class too. 
+
+Inside the constructor function we call the super() function to access all the properties from the parent class. The Person class didn't have gender but now let us give the gender property for our child class, Student. If the same method name is used in the child class, the parent class method will be overridden.
 
 ```js
 class Student extends Person {
@@ -658,7 +660,7 @@ Lidiya Tekle is 28. She lives in Helsinki, Finland. He knows Planning, Managing 
 
 Now, the getPersonInfo method has been overridden and it identifies if the person is male or female.
 
-🌕 You are excelling. Now, you knew class and you have the power to turn everything to an object. You made it to half way to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are excelling. Now, you know what a class is and you have the power to turn everything to an object. You are half way to your journey to greatness. Now do some exercises for your brain and for your muscle.
 
 ## Exercises
 
