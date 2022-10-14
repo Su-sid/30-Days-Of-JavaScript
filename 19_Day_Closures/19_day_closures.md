@@ -28,8 +28,9 @@
 
 ## Closure
 
-JavaScript allows writing function inside an outer function. We can write as many inner functions as we want. If inner function access the variables of outer function then it is called closure.
+JavaScript allows you to write function inside an outer function. Hence, we can write as many inner functions as we want. 
 
+`A closure is an inner function that   accesses the variables of an outer function.`
 ```js
 function outerFunction() {
     let count = 0;
@@ -53,7 +54,7 @@ console.log(innerFunc())
 3
 ```
 
-Let us more example of inner functions
+Let us see more example of inner functions
 
 ```js
 function outerFunction() {
